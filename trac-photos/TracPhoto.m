@@ -10,4 +10,10 @@
 
 @implementation TracPhoto
 
+@synthesize title;
+@synthesize description;
+@synthesize created_at;
+@synthesize url;
+@synthesize scaled_url;
+
 @end

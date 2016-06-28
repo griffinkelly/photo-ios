@@ -7,15 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E41AEEE44E4773B9395FBB1 /* libPods-trac-photos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C510C6A7CECE6DCEB3AF7F9 /* libPods-trac-photos.a */; };
 		7D0CC3491CFDFC1900C6EE11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC3481CFDFC1900C6EE11 /* main.m */; };
 		7D0CC34C1CFDFC1900C6EE11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC34B1CFDFC1900C6EE11 /* AppDelegate.m */; };
 		7D0CC34F1CFDFC1900C6EE11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC34E1CFDFC1900C6EE11 /* ViewController.m */; };
 		7D0CC3521CFDFC1900C6EE11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC3501CFDFC1900C6EE11 /* Main.storyboard */; };
 		7D0CC3541CFDFC1900C6EE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC3531CFDFC1900C6EE11 /* Assets.xcassets */; };
 		7D0CC3571CFDFC1900C6EE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC3551CFDFC1900C6EE11 /* LaunchScreen.storyboard */; };
+		7D0CC3601CFE0E9500C6EE11 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC35F1CFE0E9500C6EE11 /* LoginViewController.m */; };
+		7D0CC3631CFF2B2100C6EE11 /* UIColor+trac.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC3621CFF2B2100C6EE11 /* UIColor+trac.m */; };
+		7D0CC3661CFF2B6D00C6EE11 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC3651CFF2B6D00C6EE11 /* Button.m */; };
+		7D0CC3691CFF2B9000C6EE11 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC3681CFF2B9000C6EE11 /* Label.m */; };
+		7D0CC36C1CFF2B9C00C6EE11 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC36B1CFF2B9C00C6EE11 /* TextField.m */; };
+		7D0CC36F1CFF672B00C6EE11 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC36E1CFF672B00C6EE11 /* ProfileViewController.m */; };
+		7D0CC3791CFF69CF00C6EE11 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC3781CFF69CF00C6EE11 /* MainViewController.m */; };
+		7D0CC37E1D01D63500C6EE11 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC37A1D01D63500C6EE11 /* camera.png */; };
+		7D0CC37F1D01D63500C6EE11 /* tracbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC37B1D01D63500C6EE11 /* tracbanner.png */; };
+		7D0CC3801D01D63500C6EE11 /* tracicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC37C1D01D63500C6EE11 /* tracicon.png */; };
+		7D0CC3811D01D63500C6EE11 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC37D1D01D63500C6EE11 /* profile.png */; };
+		7D0CC3841D01D82D00C6EE11 /* TracPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC3831D01D82D00C6EE11 /* TracPhotoView.m */; };
+		7D0CC3861D01DFF000C6EE11 /* tyler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC3851D01DFF000C6EE11 /* tyler.jpg */; };
+		7D0CC3881D01E10A00C6EE11 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CC3871D01E10A00C6EE11 /* photo.jpg */; };
+		7D0CC38B1D0204FA00C6EE11 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC38A1D0204FA00C6EE11 /* SettingsViewController.m */; };
+		7D115EA71D1062ED00B11BCA /* TracCreatePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D115EA61D1062ED00B11BCA /* TracCreatePhotoView.m */; };
+		7D1EC5D21D0DB54F007DDA24 /* TracAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5D11D0DB54F007DDA24 /* TracAPI.m */; };
+		7D1EC5D51D0DB558007DDA24 /* Trac.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5D41D0DB558007DDA24 /* Trac.m */; };
+		7D1EC5D81D0DB910007DDA24 /* TracAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5D71D0DB910007DDA24 /* TracAccount.m */; };
+		7D1EC5DB1D0DB919007DDA24 /* TracPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5DA1D0DB919007DDA24 /* TracPhoto.m */; };
+		7D1EC5F91D0DBB45007DDA24 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5DD1D0DBB45007DDA24 /* NSObject+SBJson.m */; };
+		7D1EC5FA1D0DBB45007DDA24 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5E01D0DBB45007DDA24 /* SBJsonParser.m */; };
+		7D1EC5FB1D0DBB45007DDA24 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5E21D0DBB45007DDA24 /* SBJsonStreamParser.m */; };
+		7D1EC5FC1D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5E41D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.m */; };
+		7D1EC5FD1D0DBB45007DDA24 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5E61D0DBB45007DDA24 /* SBJsonStreamParserAdapter.m */; };
+		7D1EC5FE1D0DBB45007DDA24 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5E81D0DBB45007DDA24 /* SBJsonStreamParserState.m */; };
+		7D1EC5FF1D0DBB45007DDA24 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5EA1D0DBB45007DDA24 /* SBJsonStreamWriter.m */; };
+		7D1EC6001D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5EC1D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.m */; };
+		7D1EC6011D0DBB45007DDA24 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5EE1D0DBB45007DDA24 /* SBJsonStreamWriterState.m */; };
+		7D1EC6021D0DBB45007DDA24 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5F01D0DBB45007DDA24 /* SBJsonTokeniser.m */; };
+		7D1EC6031D0DBB45007DDA24 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5F21D0DBB45007DDA24 /* SBJsonUTF8Stream.m */; };
+		7D1EC6041D0DBB45007DDA24 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5F41D0DBB45007DDA24 /* SBJsonWriter.m */; };
+		7D1EC6051D0DBB45007DDA24 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5F61D0DBB45007DDA24 /* SSKeychain.m */; };
+		7D1EC6061D0DBB45007DDA24 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC5F81D0DBB45007DDA24 /* SSKeychainQuery.m */; };
+		7D1EC60A1D0DBBCD007DDA24 /* TracRace.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC6091D0DBBCD007DDA24 /* TracRace.m */; };
+		7D1EC60D1D0DC7E6007DDA24 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1EC60C1D0DC7E6007DDA24 /* search.png */; };
+		7D1EC60F1D0DCB28007DDA24 /* race.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1EC60E1D0DCB28007DDA24 /* race.png */; };
+		7D1EC6121D0DD06A007DDA24 /* TracRaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC6111D0DD06A007DDA24 /* TracRaceButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5371BB18B64A52C13E42600D /* Pods-trac-photos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trac-photos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trac-photos/Pods-trac-photos.debug.xcconfig"; sourceTree = "<group>"; };
+		70C6B29D6A1FEE80F50C2C32 /* Pods-trac-photos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trac-photos.release.xcconfig"; path = "Pods/Target Support Files/Pods-trac-photos/Pods-trac-photos.release.xcconfig"; sourceTree = "<group>"; };
+		7C510C6A7CECE6DCEB3AF7F9 /* libPods-trac-photos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-trac-photos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0CC3441CFDFC1800C6EE11 /* trac-photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trac-photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0CC3481CFDFC1900C6EE11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D0CC34A1CFDFC1900C6EE11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +68,75 @@
 		7D0CC3531CFDFC1900C6EE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0CC3561CFDFC1900C6EE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D0CC3581CFDFC1900C6EE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0CC35E1CFE0E9500C6EE11 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7D0CC35F1CFE0E9500C6EE11 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7D0CC3611CFF2B2100C6EE11 /* UIColor+trac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+trac.h"; sourceTree = "<group>"; };
+		7D0CC3621CFF2B2100C6EE11 /* UIColor+trac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+trac.m"; sourceTree = "<group>"; };
+		7D0CC3641CFF2B6D00C6EE11 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		7D0CC3651CFF2B6D00C6EE11 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		7D0CC3671CFF2B9000C6EE11 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		7D0CC3681CFF2B9000C6EE11 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		7D0CC36A1CFF2B9C00C6EE11 /* TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		7D0CC36B1CFF2B9C00C6EE11 /* TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
+		7D0CC36D1CFF672B00C6EE11 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		7D0CC36E1CFF672B00C6EE11 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		7D0CC3771CFF69CF00C6EE11 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7D0CC3781CFF69CF00C6EE11 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7D0CC37A1D01D63500C6EE11 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		7D0CC37B1D01D63500C6EE11 /* tracbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracbanner.png; sourceTree = "<group>"; };
+		7D0CC37C1D01D63500C6EE11 /* tracicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracicon.png; sourceTree = "<group>"; };
+		7D0CC37D1D01D63500C6EE11 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		7D0CC3821D01D82D00C6EE11 /* TracPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracPhotoView.h; sourceTree = "<group>"; };
+		7D0CC3831D01D82D00C6EE11 /* TracPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracPhotoView.m; sourceTree = "<group>"; };
+		7D0CC3851D01DFF000C6EE11 /* tyler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyler.jpg; sourceTree = "<group>"; };
+		7D0CC3871D01E10A00C6EE11 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		7D0CC3891D0204FA00C6EE11 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7D0CC38A1D0204FA00C6EE11 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7D115EA51D1062ED00B11BCA /* TracCreatePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracCreatePhotoView.h; sourceTree = "<group>"; };
+		7D115EA61D1062ED00B11BCA /* TracCreatePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracCreatePhotoView.m; sourceTree = "<group>"; };
+		7D1EC5D01D0DB54F007DDA24 /* TracAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracAPI.h; sourceTree = "<group>"; };
+		7D1EC5D11D0DB54F007DDA24 /* TracAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracAPI.m; sourceTree = "<group>"; };
+		7D1EC5D31D0DB558007DDA24 /* Trac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trac.h; sourceTree = "<group>"; };
+		7D1EC5D41D0DB558007DDA24 /* Trac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trac.m; sourceTree = "<group>"; };
+		7D1EC5D61D0DB910007DDA24 /* TracAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracAccount.h; sourceTree = "<group>"; };
+		7D1EC5D71D0DB910007DDA24 /* TracAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracAccount.m; sourceTree = "<group>"; };
+		7D1EC5D91D0DB919007DDA24 /* TracPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracPhoto.h; sourceTree = "<group>"; };
+		7D1EC5DA1D0DB919007DDA24 /* TracPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracPhoto.m; sourceTree = "<group>"; };
+		7D1EC5DC1D0DBB45007DDA24 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		7D1EC5DD1D0DBB45007DDA24 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		7D1EC5DE1D0DBB45007DDA24 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		7D1EC5DF1D0DBB45007DDA24 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7D1EC5E01D0DBB45007DDA24 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7D1EC5E11D0DBB45007DDA24 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		7D1EC5E21D0DBB45007DDA24 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		7D1EC5E31D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		7D1EC5E41D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		7D1EC5E51D0DBB45007DDA24 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		7D1EC5E61D0DBB45007DDA24 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		7D1EC5E71D0DBB45007DDA24 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		7D1EC5E81D0DBB45007DDA24 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		7D1EC5E91D0DBB45007DDA24 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		7D1EC5EA1D0DBB45007DDA24 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		7D1EC5EB1D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		7D1EC5EC1D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		7D1EC5ED1D0DBB45007DDA24 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		7D1EC5EE1D0DBB45007DDA24 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		7D1EC5EF1D0DBB45007DDA24 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		7D1EC5F01D0DBB45007DDA24 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		7D1EC5F11D0DBB45007DDA24 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		7D1EC5F21D0DBB45007DDA24 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		7D1EC5F31D0DBB45007DDA24 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7D1EC5F41D0DBB45007DDA24 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7D1EC5F51D0DBB45007DDA24 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		7D1EC5F61D0DBB45007DDA24 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		7D1EC5F71D0DBB45007DDA24 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		7D1EC5F81D0DBB45007DDA24 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		7D1EC6081D0DBBCD007DDA24 /* TracRace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracRace.h; sourceTree = "<group>"; };
+		7D1EC6091D0DBBCD007DDA24 /* TracRace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracRace.m; sourceTree = "<group>"; };
+		7D1EC60C1D0DC7E6007DDA24 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		7D1EC60E1D0DCB28007DDA24 /* race.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = race.png; sourceTree = "<group>"; };
+		7D1EC6101D0DD06A007DDA24 /* TracRaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracRaceButton.h; sourceTree = "<group>"; };
+		7D1EC6111D0DD06A007DDA24 /* TracRaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracRaceButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +144,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E41AEEE44E4773B9395FBB1 /* libPods-trac-photos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048BEF925CDD928F753C39E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C510C6A7CECE6DCEB3AF7F9 /* libPods-trac-photos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D0CC33B1CFDFC1800C6EE11 = {
 			isa = PBXGroup;
 			children = (
 				7D0CC3461CFDFC1900C6EE11 /* trac-photos */,
 				7D0CC3451CFDFC1900C6EE11 /* Products */,
+				C2A87936543EC483BEC3E380 /* Pods */,
+				048BEF925CDD928F753C39E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +180,25 @@
 		7D0CC3461CFDFC1900C6EE11 /* trac-photos */ = {
 			isa = PBXGroup;
 			children = (
+				7D1EC60B1D0DC33F007DDA24 /* Views */,
+				7D1EC6071D0DBBBB007DDA24 /* Models */,
+				7D0CC3731CFF690000C6EE11 /* Supporting */,
+				7D1EC5D01D0DB54F007DDA24 /* TracAPI.h */,
+				7D1EC5D11D0DB54F007DDA24 /* TracAPI.m */,
+				7D1EC5D31D0DB558007DDA24 /* Trac.h */,
+				7D1EC5D41D0DB558007DDA24 /* Trac.m */,
 				7D0CC34A1CFDFC1900C6EE11 /* AppDelegate.h */,
 				7D0CC34B1CFDFC1900C6EE11 /* AppDelegate.m */,
 				7D0CC34D1CFDFC1900C6EE11 /* ViewController.h */,
 				7D0CC34E1CFDFC1900C6EE11 /* ViewController.m */,
+				7D0CC35E1CFE0E9500C6EE11 /* LoginViewController.h */,
+				7D0CC35F1CFE0E9500C6EE11 /* LoginViewController.m */,
+				7D0CC3771CFF69CF00C6EE11 /* MainViewController.h */,
+				7D0CC3781CFF69CF00C6EE11 /* MainViewController.m */,
+				7D0CC36D1CFF672B00C6EE11 /* ProfileViewController.h */,
+				7D0CC36E1CFF672B00C6EE11 /* ProfileViewController.m */,
+				7D0CC3891D0204FA00C6EE11 /* SettingsViewController.h */,
+				7D0CC38A1D0204FA00C6EE11 /* SettingsViewController.m */,
 				7D0CC3501CFDFC1900C6EE11 /* Main.storyboard */,
 				7D0CC3531CFDFC1900C6EE11 /* Assets.xcassets */,
 				7D0CC3551CFDFC1900C6EE11 /* LaunchScreen.storyboard */,
@@ -74,9 +211,96 @@
 		7D0CC3471CFDFC1900C6EE11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D1EC60E1D0DCB28007DDA24 /* race.png */,
+				7D1EC60C1D0DC7E6007DDA24 /* search.png */,
+				7D0CC3871D01E10A00C6EE11 /* photo.jpg */,
+				7D0CC3851D01DFF000C6EE11 /* tyler.jpg */,
+				7D0CC37A1D01D63500C6EE11 /* camera.png */,
+				7D0CC37B1D01D63500C6EE11 /* tracbanner.png */,
+				7D0CC37C1D01D63500C6EE11 /* tracicon.png */,
+				7D0CC37D1D01D63500C6EE11 /* profile.png */,
 				7D0CC3481CFDFC1900C6EE11 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D0CC3731CFF690000C6EE11 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				7D1EC5DC1D0DBB45007DDA24 /* NSObject+SBJson.h */,
+				7D1EC5DD1D0DBB45007DDA24 /* NSObject+SBJson.m */,
+				7D1EC5DE1D0DBB45007DDA24 /* SBJson.h */,
+				7D1EC5DF1D0DBB45007DDA24 /* SBJsonParser.h */,
+				7D1EC5E01D0DBB45007DDA24 /* SBJsonParser.m */,
+				7D1EC5E11D0DBB45007DDA24 /* SBJsonStreamParser.h */,
+				7D1EC5E21D0DBB45007DDA24 /* SBJsonStreamParser.m */,
+				7D1EC5E31D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.h */,
+				7D1EC5E41D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.m */,
+				7D1EC5E51D0DBB45007DDA24 /* SBJsonStreamParserAdapter.h */,
+				7D1EC5E61D0DBB45007DDA24 /* SBJsonStreamParserAdapter.m */,
+				7D1EC5E71D0DBB45007DDA24 /* SBJsonStreamParserState.h */,
+				7D1EC5E81D0DBB45007DDA24 /* SBJsonStreamParserState.m */,
+				7D1EC5E91D0DBB45007DDA24 /* SBJsonStreamWriter.h */,
+				7D1EC5EA1D0DBB45007DDA24 /* SBJsonStreamWriter.m */,
+				7D1EC5EB1D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.h */,
+				7D1EC5EC1D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.m */,
+				7D1EC5ED1D0DBB45007DDA24 /* SBJsonStreamWriterState.h */,
+				7D1EC5EE1D0DBB45007DDA24 /* SBJsonStreamWriterState.m */,
+				7D1EC5EF1D0DBB45007DDA24 /* SBJsonTokeniser.h */,
+				7D1EC5F01D0DBB45007DDA24 /* SBJsonTokeniser.m */,
+				7D1EC5F11D0DBB45007DDA24 /* SBJsonUTF8Stream.h */,
+				7D1EC5F21D0DBB45007DDA24 /* SBJsonUTF8Stream.m */,
+				7D1EC5F31D0DBB45007DDA24 /* SBJsonWriter.h */,
+				7D1EC5F41D0DBB45007DDA24 /* SBJsonWriter.m */,
+				7D1EC5F51D0DBB45007DDA24 /* SSKeychain.h */,
+				7D1EC5F61D0DBB45007DDA24 /* SSKeychain.m */,
+				7D1EC5F71D0DBB45007DDA24 /* SSKeychainQuery.h */,
+				7D1EC5F81D0DBB45007DDA24 /* SSKeychainQuery.m */,
+				7D0CC3611CFF2B2100C6EE11 /* UIColor+trac.h */,
+				7D0CC3621CFF2B2100C6EE11 /* UIColor+trac.m */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		7D1EC6071D0DBBBB007DDA24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D1EC5D61D0DB910007DDA24 /* TracAccount.h */,
+				7D1EC5D71D0DB910007DDA24 /* TracAccount.m */,
+				7D1EC5D91D0DB919007DDA24 /* TracPhoto.h */,
+				7D1EC5DA1D0DB919007DDA24 /* TracPhoto.m */,
+				7D1EC6081D0DBBCD007DDA24 /* TracRace.h */,
+				7D1EC6091D0DBBCD007DDA24 /* TracRace.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7D1EC60B1D0DC33F007DDA24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CC3641CFF2B6D00C6EE11 /* Button.h */,
+				7D0CC3651CFF2B6D00C6EE11 /* Button.m */,
+				7D0CC3671CFF2B9000C6EE11 /* Label.h */,
+				7D0CC3681CFF2B9000C6EE11 /* Label.m */,
+				7D0CC36A1CFF2B9C00C6EE11 /* TextField.h */,
+				7D0CC36B1CFF2B9C00C6EE11 /* TextField.m */,
+				7D0CC3821D01D82D00C6EE11 /* TracPhotoView.h */,
+				7D0CC3831D01D82D00C6EE11 /* TracPhotoView.m */,
+				7D1EC6101D0DD06A007DDA24 /* TracRaceButton.h */,
+				7D1EC6111D0DD06A007DDA24 /* TracRaceButton.m */,
+				7D115EA51D1062ED00B11BCA /* TracCreatePhotoView.h */,
+				7D115EA61D1062ED00B11BCA /* TracCreatePhotoView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C2A87936543EC483BEC3E380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5371BB18B64A52C13E42600D /* Pods-trac-photos.debug.xcconfig */,
+				70C6B29D6A1FEE80F50C2C32 /* Pods-trac-photos.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D0CC35B1CFDFC1900C6EE11 /* Build configuration list for PBXNativeTarget "trac-photos" */;
 			buildPhases = (
+				6F85B9423C0517BE55D1771D /* Check Pods Manifest.lock */,
 				7D0CC3401CFDFC1800C6EE11 /* Sources */,
 				7D0CC3411CFDFC1800C6EE11 /* Frameworks */,
 				7D0CC3421CFDFC1800C6EE11 /* Resources */,
+				15B0C3BD38D884D05236467D /* Embed Pods Frameworks */,
+				95651038A149C7A95DF43FFD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +337,7 @@
 				TargetAttributes = {
 					7D0CC3431CFDFC1800C6EE11 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 46B3STWBJP;
 					};
 				};
 			};
@@ -136,22 +364,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0CC3861D01DFF000C6EE11 /* tyler.jpg in Resources */,
 				7D0CC3571CFDFC1900C6EE11 /* LaunchScreen.storyboard in Resources */,
 				7D0CC3541CFDFC1900C6EE11 /* Assets.xcassets in Resources */,
+				7D0CC3801D01D63500C6EE11 /* tracicon.png in Resources */,
+				7D0CC37F1D01D63500C6EE11 /* tracbanner.png in Resources */,
+				7D1EC60F1D0DCB28007DDA24 /* race.png in Resources */,
+				7D1EC60D1D0DC7E6007DDA24 /* search.png in Resources */,
+				7D0CC3881D01E10A00C6EE11 /* photo.jpg in Resources */,
+				7D0CC37E1D01D63500C6EE11 /* camera.png in Resources */,
 				7D0CC3521CFDFC1900C6EE11 /* Main.storyboard in Resources */,
+				7D0CC3811D01D63500C6EE11 /* profile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B0C3BD38D884D05236467D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trac-photos/Pods-trac-photos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F85B9423C0517BE55D1771D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95651038A149C7A95DF43FFD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trac-photos/Pods-trac-photos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D0CC3401CFDFC1800C6EE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1EC5D21D0DB54F007DDA24 /* TracAPI.m in Sources */,
+				7D0CC3601CFE0E9500C6EE11 /* LoginViewController.m in Sources */,
+				7D1EC6031D0DBB45007DDA24 /* SBJsonUTF8Stream.m in Sources */,
+				7D1EC6001D0DBB45007DDA24 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				7D1EC5D81D0DB910007DDA24 /* TracAccount.m in Sources */,
+				7D0CC3841D01D82D00C6EE11 /* TracPhotoView.m in Sources */,
+				7D1EC5F91D0DBB45007DDA24 /* NSObject+SBJson.m in Sources */,
+				7D0CC36F1CFF672B00C6EE11 /* ProfileViewController.m in Sources */,
+				7D0CC38B1D0204FA00C6EE11 /* SettingsViewController.m in Sources */,
+				7D1EC5D51D0DB558007DDA24 /* Trac.m in Sources */,
+				7D1EC5FD1D0DBB45007DDA24 /* SBJsonStreamParserAdapter.m in Sources */,
 				7D0CC34F1CFDFC1900C6EE11 /* ViewController.m in Sources */,
+				7D1EC6121D0DD06A007DDA24 /* TracRaceButton.m in Sources */,
+				7D1EC5FB1D0DBB45007DDA24 /* SBJsonStreamParser.m in Sources */,
+				7D1EC5FE1D0DBB45007DDA24 /* SBJsonStreamParserState.m in Sources */,
+				7D1EC5FC1D0DBB45007DDA24 /* SBJsonStreamParserAccumulator.m in Sources */,
+				7D1EC6011D0DBB45007DDA24 /* SBJsonStreamWriterState.m in Sources */,
+				7D1EC6061D0DBB45007DDA24 /* SSKeychainQuery.m in Sources */,
+				7D1EC6021D0DBB45007DDA24 /* SBJsonTokeniser.m in Sources */,
+				7D0CC3791CFF69CF00C6EE11 /* MainViewController.m in Sources */,
 				7D0CC34C1CFDFC1900C6EE11 /* AppDelegate.m in Sources */,
+				7D1EC5DB1D0DB919007DDA24 /* TracPhoto.m in Sources */,
+				7D115EA71D1062ED00B11BCA /* TracCreatePhotoView.m in Sources */,
+				7D0CC3691CFF2B9000C6EE11 /* Label.m in Sources */,
+				7D1EC6041D0DBB45007DDA24 /* SBJsonWriter.m in Sources */,
+				7D1EC5FF1D0DBB45007DDA24 /* SBJsonStreamWriter.m in Sources */,
+				7D0CC3661CFF2B6D00C6EE11 /* Button.m in Sources */,
 				7D0CC3491CFDFC1900C6EE11 /* main.m in Sources */,
+				7D1EC60A1D0DBBCD007DDA24 /* TracRace.m in Sources */,
+				7D1EC5FA1D0DBB45007DDA24 /* SBJsonParser.m in Sources */,
+				7D0CC3631CFF2B2100C6EE11 /* UIColor+trac.m in Sources */,
+				7D1EC6051D0DBB45007DDA24 /* SSKeychain.m in Sources */,
+				7D0CC36C1CFF2B9C00C6EE11 /* TextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,22 +575,26 @@
 		};
 		7D0CC35C1CFDFC1900C6EE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5371BB18B64A52C13E42600D /* Pods-trac-photos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "trac-photos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NickSchulze.trac-photos";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NickSchulze.trac-photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		7D0CC35D1CFDFC1900C6EE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C6B29D6A1FEE80F50C2C32 /* Pods-trac-photos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "trac-photos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NickSchulze.trac-photos";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NickSchulze.trac-photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -300,6 +618,7 @@
 				7D0CC35D1CFDFC1900C6EE11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

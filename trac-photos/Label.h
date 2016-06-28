@@ -1,13 +1,16 @@
 //
 //  Label.h
-//  trac-photos
+//  trac
 //
-//  Created by Nick Schulze on 6/1/16.
-//  Copyright © 2016 TRAC. All rights reserved.
+//  Created by Nick Schulze on 5/3/16.
+//  Copyright © 2016 Nick Schulze. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIColor+trac.h"
 
-@interface Label : NSObject
+@interface Label : UILabel
+
+-(id)initMainLabel:(NSString*)text atY:(CGFloat)y;
 
 @end

@@ -10,4 +10,10 @@
 
 @interface TracPhoto : NSObject
 
+@property (nonatomic, retain) NSString* title;
+@property (nonatomic, retain) NSString* description;
+@property (nonatomic, retain) NSString* created_at;
+@property (nonatomic, retain) NSString* url;
+@property (nonatomic, retain) NSString* scaled_url;
+
 @end

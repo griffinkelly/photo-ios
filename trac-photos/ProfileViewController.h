@@ -1,13 +1,43 @@
 //
 //  ProfileViewController.h
-//  trac-photos
+//  trac
 //
-//  Created by Nick Schulze on 6/1/16.
-//  Copyright © 2016 TRAC. All rights reserved.
+//  Created by Nick Schulze on 5/7/16.
+//  Copyright © 2016 Nick Schulze. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIColor+trac.h"
+#import "Button.h"
+#import "Trac.h"
 
-@interface ProfileViewController : NSObject
+@class ProfileViewController;
+@protocol ProfileDelegate <NSObject>
+
+@optional
+@required
+- (void)gotoSettings;
+- (void)gotoMain;
+
+@end
+
+@interface ProfileViewController : UIViewController
+{
+    CGFloat width;
+    CGFloat height;
+    
+    UILabel* email;
+    UILabel* name;
+    
+    Trac* trac;
+}
+
+@property (nonatomic, retain) id <ProfileDelegate> delegate;
+
+-(void)setTracAccount:(TracAccount*)tracAccount;
+
+-(void)injectTrac:(Trac*)_trac;
+
+-(void)moveIn;
 
 @end

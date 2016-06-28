@@ -1,13 +1,41 @@
 //
 //  UIColor+trac.h
-//  trac-photos
+//  trac
 //
-//  Created by Nick Schulze on 6/1/16.
-//  Copyright © 2016 TRAC. All rights reserved.
+//  Created by Nick Schulze on 4/22/16.
+//  Copyright © 2016 Nick Schulze. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface UIColor_trac : NSObject
+@interface UIColor (trac)
+
++(UIColor*)main;
+
++(UIColor*)secondary;
+
++(UIColor*)tertiary;
+
++(UIColor*)white;
+
++(UIColor*)yellow;
+
++(UIColor*)lightYellow;
+
++(UIColor*)black;
+
++(UIColor*)red;
+
++(UIColor*)blue;
+
++(UIColor*)lightBlue;
+
++(UIColor*)lightPurple;
+
++(UIColor*)lightRed;
+
++(UIColor*)gray;
+
++(UIColor*)lightGray;
 
 @end

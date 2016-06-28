@@ -10,4 +10,8 @@
 
 @interface TracAccount : NSObject
 
+@property (nonatomic, retain) NSString* name;
+@property (nonatomic, retain) NSString* email;
+@property (nonatomic, retain) NSString* token;
+
 @end

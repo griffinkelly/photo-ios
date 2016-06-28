@@ -10,4 +10,12 @@
 
 @implementation TracRace
 
+@synthesize identifier;
+@synthesize name;
+@synthesize city;
+@synthesize state;
+@synthesize country;
+@synthesize latitude;
+@synthesize longitude;
+
 @end

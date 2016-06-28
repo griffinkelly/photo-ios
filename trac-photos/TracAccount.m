@@ -10,4 +10,8 @@
 
 @implementation TracAccount
 
+@synthesize name;
+@synthesize email;
+@synthesize token;
+
 @end

@@ -1,13 +1,16 @@
 //
 //  TextField.h
-//  trac-photos
+//  trac
 //
-//  Created by Nick Schulze on 6/1/16.
-//  Copyright © 2016 TRAC. All rights reserved.
+//  Created by Nick Schulze on 4/22/16.
+//  Copyright © 2016 Nick Schulze. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIColor+trac.h"
 
-@interface TextField : NSObject
+@interface TextField : UITextField
+
+-(id)initMainTextField:(NSString*)placeholder atY:(CGFloat)y;
 
 @end
