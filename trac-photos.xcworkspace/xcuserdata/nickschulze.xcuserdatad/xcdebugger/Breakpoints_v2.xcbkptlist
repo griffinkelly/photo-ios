@@ -102,7 +102,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "trac-photos/TracAPI.m"
@@ -122,12 +122,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "trac-photos/TracAPI.m"
-            timestampString = "488476342.56309"
+            timestampString = "488994715.750111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
-            landmarkName = "+userPhotosForPage:"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
+            landmarkName = "+createPhoto:session:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -137,29 +137,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "trac-photos/TracAPI.m"
-            timestampString = "488657890.118239"
+            filePath = "trac-photos/TracCreatePhotoView.m"
+            timestampString = "488996113.324851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "313"
-            endingLineNumber = "313"
-            landmarkName = "+userPhotosForPage:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trac-photos/ViewController.m"
-            timestampString = "488658030.599031"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "-addToUserPhotos:"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-createImage"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -170,12 +154,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "trac-photos/MainViewController.m"
-            timestampString = "488658134.808723"
+            timestampString = "488996128.756946"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "896"
-            endingLineNumber = "896"
-            landmarkName = "-scrollViewDidScroll:"
+            startingLineNumber = "630"
+            endingLineNumber = "630"
+            landmarkName = "-startPostImage"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -185,13 +169,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "trac-photos/TracAPI.m"
-            timestampString = "488658218.510926"
+            filePath = "trac-photos/TracCreatePhotoView.m"
+            timestampString = "488996132.016741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
-            landmarkName = "+photosForRace:atPage:"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-addData:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

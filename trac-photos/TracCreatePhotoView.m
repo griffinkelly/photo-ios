@@ -154,6 +154,11 @@
     raceScroll.contentSize = CGSizeMake(220, 44);
 }
 
+-(void)injectTrac:(Trac*)_trac
+{
+    trac = _trac;
+}
+
 -(void)moveIn
 {
     [self bringSubviewToFront:racesPopout];

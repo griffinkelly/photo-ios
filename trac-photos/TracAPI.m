@@ -337,50 +337,12 @@ NSString* token = @"";
     return nil;
 }
 
-+(NSString*)createPhoto
-{
-    NSString *post =[[NSString alloc] initWithFormat:@"photo=%@&ts=%@", token,@"4"];
-    NSString* url = [NSString stringWithFormat:@"%@photos/?access_token=%@", api_url, token];
-    
-    NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
-    NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)[postData length]];
-    
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:url]];
-    [request setHTTPMethod:@"POST"];
-    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
-    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
-    [request setHTTPBody:postData];
-    [request setHTTPShouldHandleCookies:NO];
-    
-    NSError *requestError;
-    NSURLResponse *urlResponse = nil;
-    
-    NSData *result = [NSURLConnection sendSynchronousRequest:request returningResponse:&urlResponse error:&requestError];
-    
-    NSDictionary *dictionary = [TracAPI generateSBJsonDictionaryWithData:result];
-    
-    if (requestError == nil)
-    {
-       return @"success";
-    }
-    else
-    {
-        //        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Something weird happened..."
-        //                                                        message:@"Make sure your internet is working. If weird stuff keeps happening, please let us know!"
-        //                                                       delegate:nil
-        //                                              cancelButtonTitle:@"OK"
-        //                                              otherButtonTitles:nil];
-        //        [alert show];
-    }
-    return nil;
-}
-
 +(NSString*)createPhoto:(NSData*)imageData session:(int)session
 {
     NSString *method = @"POST";
     NSString *url = [NSString stringWithFormat:@"http://tracfoto.com/api/photos/?access_token=%@", token];
-    NSDictionary *parameters = @{@"ts": [NSString stringWithFormat:@"%d", session], @"taken_by": @"1"};
+    NSString* ts = [NSString stringWithFormat:@"%d", session];
+    NSDictionary *parameters = @{@"ts": ts};
     NSError *error;
     
     NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer]
@@ -394,6 +356,8 @@ NSString* token = @"";
     [request setTimeoutInterval:15];
     
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    manager.responseSerializer = [AFJSONResponseSerializer
+                                  serializerWithReadingOptions:NSJSONReadingAllowFragments];
     
     NSURLSessionUploadTask *uploadTask;
     uploadTask = [manager
@@ -401,9 +365,9 @@ NSString* token = @"";
                   progress:nil
                   completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
                       if (error) {
-//                          return @"invalid";
+                          NSLog( @"invalid");
                       } else {
-//                          return @"success";
+                          NSLog(@"success");
                       }
                   }];
     

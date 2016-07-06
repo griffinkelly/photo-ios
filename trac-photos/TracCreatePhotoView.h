@@ -51,6 +51,8 @@
 
 -(void)addToRaces:(NSMutableArray*)_races;
 
+-(void)injectTrac:(Trac*)_trac;
+
 -(void)moveIn;
 
 -(void)moveOut;

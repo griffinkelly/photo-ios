@@ -61,6 +61,7 @@
     TracCreatePhotoView* createPhoto;
     BOOL raceOut;
     BOOL refreshing;
+    BOOL capturingPhoto;
     int photoCount;
     int page;
 }

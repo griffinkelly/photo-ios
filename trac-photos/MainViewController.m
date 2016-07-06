@@ -423,6 +423,7 @@
     photoLibrary.hidden = NO;
     cancel.hidden = NO;
     posting = NO;
+    capturingPhoto = YES;
 }
 
 -(void)races
@@ -592,24 +593,27 @@
     
     img.hidden = YES;
     posting = YES;
+    capturingPhoto = NO;
     
     [createPhoto setRace:race];
     [createPhoto fillWith:temp];
     [createPhoto moveIn];
     
+    UIImage *takenPhoto = [UIImage imageWithCGImage:temp.CGImage];
+    
     dispatch_sync(dispatch_queue_create("img", 0), ^{
-        NSData *imageData = [NSData dataWithData:UIImageJPEGRepresentation(temp, 1.0)];
+        NSData *imageData = [NSData dataWithData:UIImageJPEGRepresentation(takenPhoto, 1.0)];
         
         float length = (int)[imageData length]*2;
         float ratio = length/7000000.0;
         
-        UIImage* scaledImage = [self scaleImage:temp ratio:ratio];
+        UIImage* scaledImage = [self scaleImage:takenPhoto ratio:ratio];
         
         NSString *ver = [[UIDevice currentDevice] systemVersion];
         float ver_float = [ver floatValue];
         if (ver_float < 8.0)
         {
-            scaledImage = [self scaleAndRotateImage:temp resolution:280];
+            scaledImage = [self scaleAndRotateImage:takenPhoto resolution:280];
         }
         
         imageData = [NSData dataWithData:UIImageJPEGRepresentation(scaledImage, 1.0)];
@@ -623,33 +627,35 @@
         //encoded json string
         NSData* data = [postString dataUsingEncoding:NSUTF8StringEncoding];
         
-        [createPhoto addData:data];
+        [createPhoto addData:imageData];
     });
 }
 
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
-    // Create a UIImage from the sample buffer data
-    UIImage *bufferImg = [self imageFromSampleBuffer:sampleBuffer];
-    @try
+    if (capturingPhoto)
     {
-        //< Add your code here that uses the image >
-        dispatch_sync(dispatch_get_main_queue(), ^{
-            temp = bufferImg;
+        // Create a UIImage from the sample buffer data
+        UIImage *bufferImg = [self imageFromSampleBuffer:sampleBuffer];
+        @try
+        {
+            //< Add your code here that uses the image >
+            dispatch_sync(dispatch_get_main_queue(), ^{
+                temp = bufferImg;
 
-            if (!posting)
-            {
-                [img setImage:temp];
-            }
-            
-            [self.view setNeedsDisplay];
-        });
+                if (!posting && temp != nil)
+                {
+                    [img setImage:temp];
+                }
+                
+                [self.view setNeedsDisplay];
+            });
+        }
+        @catch (NSException* e)
+        {
+            NSLog(@"screen not visible");
+        }
     }
-    @catch (NSException* e)
-    {
-        NSLog(@"screen not visible");
-    }
-
 }
 
 - (UIImage*) imageFromSampleBuffer:(CMSampleBufferRef) sampleBuffer
@@ -694,7 +700,7 @@
 
 -(void)setSession:(AVCaptureSession *)capturesession
 {
-    session=capturesession;
+    session = capturesession;
 }
 
 -(void)cancelCapture
@@ -703,6 +709,7 @@
     postImg.hidden = YES;
     photoLibrary.hidden = YES;
     cancel.hidden = YES;
+    capturingPhoto = NO;
     [createPhoto moveOut];
     [UIView animateWithDuration:.4
                      animations:^{
@@ -716,6 +723,7 @@
 
 -(void)createdPhoto
 {
+    cancel.hidden = YES;
     [UIView animateWithDuration:.4
                      animations:^{
                          overlay.alpha = 0.0;
@@ -735,6 +743,7 @@
 -(void)injectTrac:(Trac*)_trac
 {
     trac = _trac;
+    [createPhoto injectTrac:trac];
 }
 
 -(UIImage*)scaleImage:(UIImage*)selectedImage ratio:(float)ratio
@@ -765,7 +774,7 @@
     UIImage* scaledImage = [[UIImage alloc]initWithCGImage:newImage];
     
     CGContextRelease(context);
-    CGImageRelease(postImage);
+//    CGImageRelease(postImage);
     CGImageRelease(newImage);
     CGColorSpaceRelease(colorSpace);
     
