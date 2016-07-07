@@ -91,7 +91,7 @@
         CGFloat buttonH = (width-80)/5.89;
         UIImageView* banner = [[UIImageView alloc] initWithFrame:CGRectMake(10, height-28-buttonH, width-80, buttonH)];
         banner.backgroundColor = [UIColor white];
-        [banner setImage:[UIImage imageNamed:@"tracbanner.png"]];
+        [banner setImage:[UIImage imageNamed:@"flashbanner.png"]];
         banner.layer.cornerRadius = 5;
         [self.view addSubview:banner];
         

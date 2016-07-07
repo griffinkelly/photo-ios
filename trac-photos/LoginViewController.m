@@ -29,7 +29,7 @@
         image = [[UIImageView alloc] initWithFrame:CGRectMake(20, 70, width-40, (width-40)/5.89)];
         image.backgroundColor = [UIColor white];
         image.layer.cornerRadius = 8;
-        [image setImage:[UIImage imageNamed:@"tracbanner.png"]];
+        [image setImage:[UIImage imageNamed:@"flashbanner.png"]];
         [self.view addSubview:image];
         
         email = [[TextField alloc] initMainTextField:@"username" atY:212];
@@ -68,7 +68,7 @@
         [close setTitleColor:[UIColor blue] forState:UIControlStateNormal];
         [registerView addSubview:close];
         
-        Label* title = [[Label alloc] initMainLabel:@"Register for trac" atY:150];
+        Label* title = [[Label alloc] initMainLabel:@"Register for FlashFrame" atY:150];
         [title setTextColor:[UIColor blue]];
         [registerScroll addSubview:title];
         
@@ -76,7 +76,7 @@
         registerImage.backgroundColor = [UIColor white];
         registerImage.layer.cornerRadius = 8;
         registerImage.layer.masksToBounds = YES;
-        [registerImage setImage:[UIImage imageNamed:@"tracicon.png"]];
+        [registerImage setImage:[UIImage imageNamed:@"flashicon.png"]];
         [registerScroll addSubview:registerImage];
         
         registerName = [[TextField alloc] initMainTextField:@"name" atY:236];

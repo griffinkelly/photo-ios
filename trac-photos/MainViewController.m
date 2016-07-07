@@ -74,9 +74,9 @@
         [self.view addSubview:scroll];
         
         UIButton* test = [[UIButton alloc] initWithFrame:CGRectMake((width/2)-32, height-74, 64, 64)];
-        test.backgroundColor = [UIColor yellow];
+        test.backgroundColor = [UIColor lightBlue];
         test.layer.borderWidth = 1;
-        test.layer.borderColor = [UIColor blue].CGColor;
+        test.layer.borderColor = [UIColor orange].CGColor;
         test.layer.cornerRadius = 32;
         test.layer.shadowColor = [UIColor darkGrayColor].CGColor;
         test.layer.shadowOpacity = .5;
@@ -147,7 +147,7 @@
         CGFloat buttonW = 36*5.89;
         UIImageView* logo_img = [[UIImageView alloc] initWithFrame:CGRectMake(width/2-buttonW/2, 20, buttonW, 36)];
         [logo_img setBackgroundColor:[UIColor clearColor]];
-        [logo_img setImage:[UIImage imageNamed:@"tracbanner.png"]];
+        [logo_img setImage:[UIImage imageNamed:@"flashbanner.png"]];
         [header addSubview:logo_img];
         
         overlay = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width, height)];

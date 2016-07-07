@@ -20,6 +20,10 @@
 
 +(UIColor*)yellow;
 
++(UIColor*)lightOrange;
+
++(UIColor*)orange;
+
 +(UIColor*)lightYellow;
 
 +(UIColor*)black;
