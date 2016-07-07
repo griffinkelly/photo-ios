@@ -65,11 +65,11 @@
         
         Button* close = [[Button alloc] initHeaderTextButton:@"Close" atX:width-80 atY:20];
         [close addTarget:self action:@selector(moveOutRegister) forControlEvents:UIControlEventTouchUpInside];
-        [close setTitleColor:[UIColor blue] forState:UIControlStateNormal];
+        [close setTitleColor:[UIColor white] forState:UIControlStateNormal];
         [registerView addSubview:close];
         
         Label* title = [[Label alloc] initMainLabel:@"Register for FlashFrame" atY:150];
-        [title setTextColor:[UIColor blue]];
+        [title setTextColor:[UIColor white]];
         [registerScroll addSubview:title];
         
         registerImage = [[UIImageView alloc] initWithFrame:CGRectMake((width/2)-50, 30, 100, 100)];

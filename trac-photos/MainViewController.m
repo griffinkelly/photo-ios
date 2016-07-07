@@ -67,14 +67,14 @@
         [filterHeader addSubview:filterLabel];
         
         scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 64, width, height-64)];
-        scroll.backgroundColor = [UIColor lightBlue];
+        scroll.backgroundColor = [UIColor lightOrange];
         scroll.clipsToBounds = YES;
         [scroll setShowsVerticalScrollIndicator:NO];
         [scroll setDelegate:self];
         [self.view addSubview:scroll];
         
         UIButton* test = [[UIButton alloc] initWithFrame:CGRectMake((width/2)-32, height-74, 64, 64)];
-        test.backgroundColor = [UIColor lightBlue];
+        test.backgroundColor = [UIColor white];
         test.layer.borderWidth = 1;
         test.layer.borderColor = [UIColor orange].CGColor;
         test.layer.cornerRadius = 32;

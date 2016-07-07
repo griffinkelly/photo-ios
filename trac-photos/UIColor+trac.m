@@ -17,7 +17,7 @@
 
 +(UIColor*)secondary
 {
-    return [self lightBlue];
+    return [self lightOrange];
 }
 
 +(UIColor*)tertiary
@@ -35,10 +35,10 @@
 {
     return [UIColor colorWithRed:242.0/255.0 green:101.0/255.0 blue:34.0/255.0 alpha:1.0];
 }
-//#f8b290 248,178,144
+//#f4834e 244,131,78
 +(UIColor*)lightOrange
 {
-    return [UIColor colorWithRed:248.0/255.0 green:178.0/255.0 blue:144.0/255.0 alpha:1.0];
+    return [UIColor colorWithRed:244.0/255.0 green:131.0/255.0 blue:78.0/255.0 alpha:1.0];
 }
 //#FFEB3B
 +(UIColor*)yellow

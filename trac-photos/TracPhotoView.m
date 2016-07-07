@@ -24,7 +24,7 @@
         self.layer.cornerRadius = 5;
         
         image = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, width-40, (width-40)*.8)];
-        image.backgroundColor = [UIColor yellow];
+        image.backgroundColor = [UIColor white];
         image.layer.cornerRadius = 5;
 //        [image setImage:[UIImage imageNamed:@"tyler.jpg"]];
         image.layer.masksToBounds = YES;

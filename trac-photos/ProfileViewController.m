@@ -37,7 +37,7 @@
         [self.view addSubview:close];
         
         UIView* logo_background = [[UIImageView alloc] initWithFrame:CGRectMake((width-60)/2-50, 20, 100, 100)];
-        [logo_background setBackgroundColor:[UIColor lightBlue]];
+        [logo_background setBackgroundColor:[UIColor lightOrange]];
         logo_background.layer.cornerRadius = 50;
         logo_background.layer.borderColor = [UIColor white].CGColor;
         logo_background.layer.borderWidth = 3;

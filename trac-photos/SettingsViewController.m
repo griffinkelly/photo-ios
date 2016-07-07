@@ -44,7 +44,7 @@
         [self.view addSubview:header];
         
         UIView* hline = [[UIView alloc] initWithFrame:CGRectMake(0, 62, width, 2)];
-        hline.backgroundColor = [UIColor lightBlue];
+        hline.backgroundColor = [UIColor lightOrange];
         [header addSubview:hline];
         
         Label* title = [[Label alloc] initMainLabel:@"Settings" atY:18];

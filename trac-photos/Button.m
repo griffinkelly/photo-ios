@@ -52,7 +52,7 @@
     {
         [self setBackgroundColor:[UIColor secondary]];
         [self setTitle:title forState:UIControlStateNormal];
-        [self setTitleColor:[UIColor blue] forState:UIControlStateNormal];
+        [self setTitleColor:[UIColor white] forState:UIControlStateNormal];
         self.layer.cornerRadius = 5;
     }
     return self;
