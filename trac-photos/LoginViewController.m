@@ -54,7 +54,7 @@
         //        [email becomeFirstResponder];
         
         registerView = [[UIView alloc] initWithFrame:CGRectMake(0, height, width, height)];
-        registerView.backgroundColor = [UIColor secondary];
+        registerView.backgroundColor = [UIColor main];
         [self.view addSubview:registerView];
         
         registerScroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, width, height)];

@@ -88,7 +88,7 @@
         
         UIImageView* test_img = [[UIImageView alloc] initWithFrame:CGRectMake(14, 17, 36, 30)];
         [test_img setBackgroundColor:[UIColor clearColor]];
-        [test_img setImage:[UIImage imageNamed:@"camera.png"]];
+        [test_img setImage:[UIImage imageNamed:@"camera_2.png"]];
         [test addSubview:test_img];
         
         profileButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 10, 50, 50)];
@@ -98,7 +98,7 @@
 
         UIImageView* profile_img = [[UIImageView alloc] initWithFrame:CGRectMake(12, 18, 26, 26)];
         [profile_img setBackgroundColor:[UIColor clearColor]];
-        [profile_img setImage:[UIImage imageNamed:@"profile.png"]];
+        [profile_img setImage:[UIImage imageNamed:@"hamburger.png"]];
         [profileButton addSubview:profile_img];
         
         searchButton = [[UIButton alloc] initWithFrame:CGRectMake(width-50, 0, 44, 44)];
@@ -109,7 +109,7 @@
         
         UIImageView* search_img = [[UIImageView alloc] initWithFrame:CGRectMake(12, 9, 26, 26)];
         [search_img setBackgroundColor:[UIColor clearColor]];
-        [search_img setImage:[UIImage imageNamed:@"search.png"]];
+        [search_img setImage:[UIImage imageNamed:@"search_2.png"]];
         [searchButton addSubview:search_img];
         
         searchField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, width, 44)];
@@ -141,7 +141,7 @@
         
         UIImageView* race_img = [[UIImageView alloc] initWithFrame:CGRectMake(7, 14, 32, 32)];
         [race_img setBackgroundColor:[UIColor clearColor]];
-        [race_img setImage:[UIImage imageNamed:@"race.png"]];
+        [race_img setImage:[UIImage imageNamed:@"search_2.png"]];
         [raceButton addSubview:race_img];
         
         CGFloat buttonW = 36*5.89;

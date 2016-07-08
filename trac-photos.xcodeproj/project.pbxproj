@@ -54,6 +54,9 @@
 		7D1EC6121D0DD06A007DDA24 /* TracRaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EC6111D0DD06A007DDA24 /* TracRaceButton.m */; };
 		9013231C1D2E98B400F2754C /* flashicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9013231B1D2E98B400F2754C /* flashicon.png */; };
 		9013231E1D2EAABB00F2754C /* flashbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9013231D1D2EAABB00F2754C /* flashbanner.png */; };
+		903A07C81D2F6505004598F7 /* search_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A07C71D2F6505004598F7 /* search_2.png */; };
+		903A07CA1D2F6512004598F7 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A07C91D2F6512004598F7 /* hamburger.png */; };
+		903A07CC1D2F68C3004598F7 /* camera_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A07CB1D2F68C3004598F7 /* camera_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +144,9 @@
 		7D1EC6111D0DD06A007DDA24 /* TracRaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracRaceButton.m; sourceTree = "<group>"; };
 		9013231B1D2E98B400F2754C /* flashicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashicon.png; sourceTree = "<group>"; };
 		9013231D1D2EAABB00F2754C /* flashbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashbanner.png; sourceTree = "<group>"; };
+		903A07C71D2F6505004598F7 /* search_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_2.png; sourceTree = "<group>"; };
+		903A07C91D2F6512004598F7 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
+		903A07CB1D2F68C3004598F7 /* camera_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,9 +224,12 @@
 				7D1EC60E1D0DCB28007DDA24 /* race.png */,
 				7D1EC60C1D0DC7E6007DDA24 /* search.png */,
 				9013231D1D2EAABB00F2754C /* flashbanner.png */,
+				903A07C91D2F6512004598F7 /* hamburger.png */,
 				9013231B1D2E98B400F2754C /* flashicon.png */,
+				903A07C71D2F6505004598F7 /* search_2.png */,
 				7D0CC3871D01E10A00C6EE11 /* photo.jpg */,
 				7D0CC3851D01DFF000C6EE11 /* tyler.jpg */,
+				903A07CB1D2F68C3004598F7 /* camera_2.png */,
 				7D0CC37A1D01D63500C6EE11 /* camera.png */,
 				7D0CC37B1D01D63500C6EE11 /* tracbanner.png */,
 				7D0CC37C1D01D63500C6EE11 /* tracicon.png */,
@@ -343,7 +352,7 @@
 				TargetAttributes = {
 					7D0CC3431CFDFC1800C6EE11 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 46B3STWBJP;
+						DevelopmentTeam = 8GZGC5RAVP;
 					};
 				};
 			};
@@ -374,12 +383,15 @@
 				7D0CC3571CFDFC1900C6EE11 /* LaunchScreen.storyboard in Resources */,
 				7D0CC3541CFDFC1900C6EE11 /* Assets.xcassets in Resources */,
 				7D0CC3801D01D63500C6EE11 /* tracicon.png in Resources */,
+				903A07CA1D2F6512004598F7 /* hamburger.png in Resources */,
 				7D0CC37F1D01D63500C6EE11 /* tracbanner.png in Resources */,
+				903A07CC1D2F68C3004598F7 /* camera_2.png in Resources */,
 				7D1EC60F1D0DCB28007DDA24 /* race.png in Resources */,
 				7D1EC60D1D0DC7E6007DDA24 /* search.png in Resources */,
 				9013231C1D2E98B400F2754C /* flashicon.png in Resources */,
 				9013231E1D2EAABB00F2754C /* flashbanner.png in Resources */,
 				7D0CC3881D01E10A00C6EE11 /* photo.jpg in Resources */,
+				903A07C81D2F6505004598F7 /* search_2.png in Resources */,
 				7D0CC37E1D01D63500C6EE11 /* camera.png in Resources */,
 				7D0CC3521CFDFC1900C6EE11 /* Main.storyboard in Resources */,
 				7D0CC3811D01D63500C6EE11 /* profile.png in Resources */,
@@ -588,7 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "trac-photos/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NickSchulze.trac-photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,7 +614,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "trac-photos/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NickSchulze.trac-photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
